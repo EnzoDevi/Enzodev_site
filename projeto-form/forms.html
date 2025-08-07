@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de verificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header><h1>Preencha o formulário</h1></header> 
+
+   <section>
+    
+    <form>
+        <button><a href="../index.html">Home</a></button><br><br>
+        <label>Nome: <input type="text" name="nome" id="nome"></label> <br><br>
+
+        <label>Data de Nascimento: <input type="date" name="data" id="data"></label><br><br>
+
+        <label>E-mail: <input type="email" name="email" id="email"></label><br><br>
+
+        <label>Como eu sou para você?</label><br>
+        <textarea name="mensagem" id="mensagem"></textarea><br><br>
+
+        <button type="button" onclick="enviar()">Enviar</button>
+    </form>
+   </section>
+
+   <div id="res"></div>
+
+   <footer>
+    <p id="insta">@enzodavi149</p>
+   </footer>
+
+   <script src="código.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to bottom left, rgb(194, 0, 0), black);
+    color: white;
+    font:14pt Arial;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    height: 100px;
+}
+h1{
+    margin-top: 40px;
+}
+
+section{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: 590px;
+}
+
+form{
+    width: 400px;
+    margin: auto;
+    text-align: start;
+    background: rgba(70, 70, 70, 0.651);
+    box-shadow: 5px,5px,10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#mens{
+    height: 100px;
+    width: 300px;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: 100px;
+}
+
+#insta{
+    margin-top: 40px;
+}
